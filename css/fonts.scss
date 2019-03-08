@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'font1579a54beabef5f14ad6cdbe89b77544';
+      
+      src:    url('https://nomail.com.ua/files/eot/1579a54beabef5f14ad6cdbe89b77544.eot?#iefix') format('embedded-opentype'),
+              url('https://nomail.com.ua/files/woff/1579a54beabef5f14ad6cdbe89b77544.woff') format('woff'),
+              url('https://nomail.com.ua/files/woff2/1579a54beabef5f14ad6cdbe89b77544.woff2') format('woff2');
+  }
+  
+  @font-face { font-family: 'QuiteChocolatey';  src: local('QuiteChocolatey'), url('https://nomail.com.ua/files/woff/1579a54beabef5f14ad6cdbe89b77544.woff') format('woff'); }
+
+@mixin font-Q{
+  font-family: 'QuiteChocolatey';
+}
+
+@mixin font-M {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@mixin font-S {
+  font-family: 'PT Serif', serif;
+}
+
+@mixin font-C { 
+  font-family: 'COUTUREBold'; 
+  font-weight: bold; 
+  font-style: normal; 
+}
